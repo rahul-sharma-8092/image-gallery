@@ -8,7 +8,7 @@ function CustomRoutes() {
 	return (
 		<Routes>
 			<Route
-				path="/"
+				path="/image-gallery/"
 				element={
 					<>
 						<Header heading="My Gallery" />
