@@ -17,7 +17,7 @@ function CustomRoutes() {
 				}
 			/>
 			<Route
-				path="/image/:id"
+				path="/image-gallery/image/:id"
 				element={
 					<>
 						<Header heading="Image details" />
