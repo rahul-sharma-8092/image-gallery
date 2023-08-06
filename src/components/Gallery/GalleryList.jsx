@@ -6,7 +6,7 @@ function GalleryList() {
 	const [imageData, setImageData] = useState([]);
 	const [isLoading, setIsLoading] = useState(true);
 	// Download All photos
-	const imgUrl = "https://api.slingacademy.com/v1/sample-data/photos?offset=0&limit=20";
+	const imgUrl = "https://api.slingacademy.com/v1/sample-data/photos?offset=0&limit=99";
 
 	const downloadImage = async (url) => {
 		try {
